@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.7.5</version>
-    <relativePath/>
-</parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.5</version>
+        <relativePath/>
+    </parent>
 
     <groupId>tn.esprit.spring</groupId>
     <artifactId>kaddem</artifactId>
@@ -40,10 +40,10 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- MySQL Connector -->
+        <!-- Updated MySQL Connector -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
             <version>8.0.33</version>
         </dependency>
 
@@ -108,9 +108,9 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- SonarQube Maven Plugin -->
+        <!-- Updated SonarQube Maven Plugin -->
         <dependency>
-            <groupId>org.codehaus.mojo</groupId>
+            <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
             <version>4.0.0.4121</version>
         </dependency>
