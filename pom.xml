@@ -15,9 +15,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>kaddem</name>
     <description>kaddem</description>
-
+    
     <properties>
         <java.version>1.8</java.version>
+    <sonar.host.url>http://localhost:9000</sonar.host.url> <!-- Change if needed -->
+    <sonar.login>sqa_acf48e6fb811b21551f53d3e57fe691b0504315f</sonar.login> <!-- Use a generated token -->
+
     </properties>
 
     <dependencies>
